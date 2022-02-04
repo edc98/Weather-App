@@ -1,0 +1,47 @@
+h1 {
+  color: #260c1a;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 60px;
+  color: #260c1a;
+}
+
+.card {
+  margin: 0 auto;
+  display: block;
+}
+
+.title-column {
+  text-decoration: underline;
+}
+
+.row {
+  text-align: center;
+}
+
+.col-2 {
+  text-align: center;
+}
+
+.future {
+  margin: 0 auto;
+  display: block;
+  color: #260c1a;
+}
+
+button {
+  color: white;
+  background: #fd5959;
+}
+
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 239, 132) 0%,
+    rgb(247, 198, 169) 54.2%,
+    rgb(21, 186, 196) 100.3%
+  );
+}
