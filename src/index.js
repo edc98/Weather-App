@@ -44,25 +44,6 @@ current.addEventListener("submit", currentPosition);
 
 navigator.geolocation.getCurrentPosition(currentPosition);
 
-/*function convertC(event) {
-  event.preventDefault();
-  let currentTemp = document.querySelector("#temperature");
-  currentTemp.innerHTML = `${"#temperature"}`;
-}
-
-let currentC = document.querySelector("#celcius");
-currentC.addEventListener("click", convertC);
-
-function convertF(event) {
-  event.preventDefault();
-  let cTemp = document.querySelector("#temp");
-  let fahrenheit = Math.round(cTemp * (9 / 5) + 32);
-  cTemp.innerHTML = `${fahrenheit}°`;
-}
-
-let currentFah = document.querySelector("#fahrenheit");
-currentFah.addEventListener("click", convertF);*/
-
 let now = new Date();
 
 let days = [
