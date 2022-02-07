@@ -45,3 +45,8 @@ body {
     rgb(21, 186, 196) 100.3%
   );
 }
+
+.github-link {
+  font-size: 30px;
+  text-align: center;
+}
